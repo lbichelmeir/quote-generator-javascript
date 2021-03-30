@@ -1,7 +1,7 @@
 # quote-generator-javascript
 a random quote generator built with HTML/CSS/JavaScript
 
-![](MemeGenerator.gif)
+![](WisdomGenerator.gif)
 
 ## Learning Outcomes [Why]
 I wanted to further my vanilla javascript knowledge, so I decided to create a random quote generator! 
