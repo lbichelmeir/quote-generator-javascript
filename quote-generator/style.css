@@ -1,5 +1,5 @@
 body {
-    /* background-position: center; */
+    background-position: center;
     /* background-repeat: no-repeat; */
     background-size: cover;
     background-image: url('https://source.unsplash.com/collection/1240/1280x1024');
@@ -9,33 +9,61 @@ body {
 https://source.unsplash.com/random/1920x1080 */
 
 .container {
-    backdrop-filter: blur(8px);
-    /* margin: auto;
-    width: 50%;
-    align-items: center;
-    color: white; */
+    /* backdrop-filter: blur(8px); */
     display: flex;
     justify-content: center;
     align-items: center;
     margin: 0 auto;
+    margin-top: 50px;
     text-align: center;
     max-width: 600px;
+    border-radius: 10px;
+    background-color: azure;
+    padding: 2em 0;
     
 
 }
 
 .text-container > h1 {
-    
-    font-family: 'Old Standard TT', serif;
-    font-size: 3vw;
-
+    font-family: 'Poppins', sans-serif;
+    font-size: 35px;
+    /* font-size: 3.5vw; */
+    margin-bottom: 3%;
 }
 
 p {
-    font-family: 'Alegreya', serif;
+    font-family: 'Lora', serif;
+    margin: 0 auto;
+    padding: 0 2em;
+    padding-bottom: 0.7em;
+}
+#author {
+    font-style: italic;
+    padding-bottom: 1em;
+    
 }
 
 button {
-    font-family: 'Poppins', sans-serif;
+    
+    font-family: 'Karla', sans-serif;
+    border: none;
+    padding: 0.5em 1em;
+    border-radius: 40px;
+    background-color: #D2E9e1;
+    font-size: 15px;
+    margin: 0 0.3em;
+    
+
+}
+
+button:hover {
+    opacity: 0.6;
+    
+}
+
+.quote-container > p {
+    margin: 0 auto;
+    padding: 10em 10em;
+    justify-content: space-around;
 
 }

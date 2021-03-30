@@ -1,8 +1,8 @@
 // https://forum.freecodecamp.org/t/free-api-inspirational-quotes-json-with-code-examples/311373
 
 const url = "https://api.quotable.io/random";
-const img_url = "https://api.unsplash.com/photos/random/?client_id=DCEdsBlifmBj14jUCoocVR3f_R_jZy-Zcl3S5IoiuEk"
-// const img_url = "https://api.unsplash.com/photos/random/?client_id=DCEdsBlifmBj14jUCoocVR3f_R_jZy-Zcl3S5IoiuEk&query=nature&orientation=landscape"
+// const img_url = "https://api.unsplash.com/photos/random/?client_id=DCEdsBlifmBj14jUCoocVR3f_R_jZy-Zcl3S5IoiuEk"
+const img_url = "https://api.unsplash.com/photos/random/?client_id=DCEdsBlifmBj14jUCoocVR3f_R_jZy-Zcl3S5IoiuEk&query=nature-wallpaper&orientation=landscape"
 // const img_url = "https://api.unsplash.com/photos/random/?client_id=DCEdsBlifmBj14jUCoocVR3f_R_jZy-Zcl3S5IoiuEk&collection=3656341"
 
 
@@ -15,7 +15,7 @@ fetch(url)
   })
   .then(function(data) {
       document.getElementById('quote').innerHTML = data.content;
-      document.getElementById('author').innerHTML = "- "+ data.author
+      document.getElementById('author').innerHTML = "- "+ data.author +" -"
     // document.querySelector(".author").innerHTML = "- " + data.author;
     console.log(data);
   });
