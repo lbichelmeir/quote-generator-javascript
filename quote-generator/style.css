@@ -1,0 +1,41 @@
+body {
+    /* background-position: center; */
+    /* background-repeat: no-repeat; */
+    background-size: cover;
+    background-image: url('https://source.unsplash.com/collection/1240/1280x1024');
+}
+
+/* 1920 x 1080
+https://source.unsplash.com/random/1920x1080 */
+
+.container {
+    backdrop-filter: blur(8px);
+    /* margin: auto;
+    width: 50%;
+    align-items: center;
+    color: white; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    text-align: center;
+    max-width: 600px;
+    
+
+}
+
+.text-container > h1 {
+    
+    font-family: 'Old Standard TT', serif;
+    font-size: 3vw;
+
+}
+
+p {
+    font-family: 'Alegreya', serif;
+}
+
+button {
+    font-family: 'Poppins', sans-serif;
+
+}
